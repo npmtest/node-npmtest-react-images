@@ -1,6 +1,6 @@
 # npmtest-react-images
 
-#### test coverage for  [react-images (v0.5.2)](http://jossmac.github.io/react-images)  [![npm package](https://img.shields.io/npm/v/npmtest-react-images.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-images) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-images.svg)](https://travis-ci.org/npmtest/node-npmtest-react-images)
+#### basic test coverage for  [react-images (v0.5.2)](http://jossmac.github.io/react-images)  [![npm package](https://img.shields.io/npm/v/npmtest-react-images.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-images) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-images.svg)](https://travis-ci.org/npmtest/node-npmtest-react-images)
 
 #### A simple, responsive lightbox component for displaying an array of images with React.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-images/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-images/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-images/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-images/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-images/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-images/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-images/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-images/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-images/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-images/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-images/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-images/build/coverage.html/index.html)
 
@@ -115,7 +115,8 @@
         "start": "gulp dev",
         "watch": "gulp watch:lib"
     },
-    "version": "0.5.2"
+    "version": "0.5.2",
+    "bin": {}
 }
 ```
 
